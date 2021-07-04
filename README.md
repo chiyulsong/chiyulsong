@@ -1,7 +1,4 @@
-### Hi there, I'm Chiyul - aka CY 👋
-
-
-**chiyulsong/chiyulsong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Hi there, I'm Chiyul Song - aka CY 👋
 
 Here are some ideas to get you started:
 
