@@ -1,5 +1,6 @@
 ## Hi there, I'm Chiyul 👋
----
+
+Version 2
 I'm currently working as a Data Analytics Manager at Nike in Advanced Analytics Team.
 
 Here are some ideas to get you started:
