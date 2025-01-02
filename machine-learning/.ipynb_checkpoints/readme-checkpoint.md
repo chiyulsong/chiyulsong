@@ -118,27 +118,3 @@ Reinforcement Learning trains agents to make decisions by interacting with an en
 | **R^2 Score**               | Proportion of variance explained by the model (closer to 1 is better) | Assesses overall explanatory power of the model |
 | **Mean Absolute Percentage Error (MAPE)** | Mean of absolute percentage errors                        | Evaluates relative error                        |
 | **Explained Variance Score** | Proportion of variance in the target explained by the model | Measures the model's explanatory capability     |
-
-
-
-
-분류와 회귀 지표 선택 시 고려사항
-
-- 데이터 특성:
-불균형 데이터(예: 암 진단)에서는 Precision, Recall, F1 Score가 더 유용합니다.
-균형 잡힌 데이터(예: 날씨 예측)에서는 Accuracy가 적합합니다.
-- 비즈니스 목표:
-분류 문제에서 False Positive와 False Negative의 비용 차이를 고려합니다.
-회귀 문제에서는 MSE가 큰 오차를 더 강하게 페널티로 반영하기 때문에 중요한 경우 적합합니다.
-- 모델 목적:
-확률 기반 모델(예: Logistic Regression)에서는 Log Loss 또는 ROC-AUC가 더 중요합니다.
-회귀에서 R^2은 전반적인 설명력을 평가하는 데 좋습니다.
-
-추천
-- 분류:
-이진 분류 문제에서 F1 Score와 ROC-AUC를 조합해 평가.
-다중 클래스 문제에서는 Confusion Matrix와 Precision-Recall 분석.
-- 회귀:
-MAE와 RMSE를 함께 사용하여 모델의 오차를 다각도로 평가.
-R^2 점수를 추가하여 모델의 설명력을 확인.
-지표에 대한 구체적인 사례나 코드 예제가 필요하면 말씀해주
